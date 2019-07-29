@@ -1,0 +1,48 @@
+.onePhoto {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background: linear-gradient(45deg, rgba(191,191,191,1) 0%, rgba(191,191,191,1) 1%, rgba(176,176,176,1) 27%, rgba(184,184,184,1) 46%, rgba(214,214,214,1) 70%, rgba(254,254,254,1) 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.opHeader {
+    width: 100%;
+    height: 120px;
+    background: rgb(114, 115, 115);
+    box-shadow: 0 5px #999999;
+}
+.opHeader h3 {
+    font-size: 80px;
+    text-align: center;
+    font-family: serif;
+    font-weight: 300;
+    margin-top: 0;
+    padding-top: 10px;
+    text-shadow: -1px 0 black, 0 3px black, 2px 0 black, 0 -1px black;
+    color: white;
+}
+.imageHolder {
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 7%, rgba(102,102,102,1) 11%, rgba(71,71,71,1) 22%, rgba(44,44,44,1) 31%, rgba(0,0,0,1) 63%, rgba(17,17,17,1) 72%, rgba(43,43,43,1) 84%, rgba(28,28,28,1) 95%, rgba(19,19,19,1) 100%);
+    height: 500px;
+    width: 70%;
+    border-radius: 10px;
+}
+.imageHolder img {
+    margin-left: 25%;
+    margin-top: 7%;
+    border: 1px solid black;
+}
+button {
+    display: flex;
+    position: relative;
+    top: 0px;
+    width: 200px;
+    font-size: 20px;
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+}
